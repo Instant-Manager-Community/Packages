@@ -1,0 +1,21 @@
+{
+	"name": "Metin1 FreeBSD Server",
+	"description": "Metin1 Server",
+	"author": "Arves100",
+	"type": "Metin1Service",
+	"sections": {
+		"database": {
+			"type": "MySQL",
+			"version": 5.6,
+			"files": "database.tar.gz"
+		},
+		"server": {
+			"type": "FreeBSD",
+			"version": "5",
+			"files": "server.tar.gz"
+		},
+        "dependencies": {
+			"pkg": ["compat5x", "mysql4-server"]
+        }
+	}
+}

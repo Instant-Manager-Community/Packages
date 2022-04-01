@@ -1,0 +1,27 @@
+{
+	"name": "Metin2 Windows Server",
+	"description": "Mainline server compatible with Windows",
+	"author": "blackdragonx61",
+	"type": "Metin2Service",
+	"sections": {
+		"database": {
+			"type": "MySQL",
+			"version": 5.6,
+			"files": "database.tar.gz"
+		},
+		"server": {
+			"type": "Windows",
+			"version": "10",
+			"files": "server.tar.gz"
+		},
+		"dependencies": {
+			"installers": {
+				"mysql": {
+					"version": 8,
+					"installer": "https://dev.mysql.com/get/Downloads/MySQLInstaller/mysql-installer-community-8.0.28.0.msi",
+					"checksum": {"type": "md5", "value": "ef223cbd7873a057d5aa0abcfa596201 "}
+				}
+			}
+		}
+	}
+}

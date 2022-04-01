@@ -1,0 +1,13 @@
+{
+	"name": "Urban Terror 4.3.4 Server",
+	"description": "UrT Server using the official client/server files",
+	"author": "FrostSand",
+	"type": "UrbanTerrorService",
+	"sections": {
+		"files": {
+			"type": "Any",
+			"version": "Any",
+			"files": "http://cdn.urbanterror.info/urt/43/releases/zips/UrbanTerror434_full.zip"
+		}
+	}
+}
