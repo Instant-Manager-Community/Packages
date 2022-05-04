@@ -7,12 +7,12 @@
 		"database": {
 			"type": "MySQL",
 			"version": 5.6,
-			"files": "database.tar.gz"
+			"pack": "database"
 		},
 		"server": {
 			"type": "Windows",
 			"version": "10",
-			"files": "server.tar.gz"
+			"pack": "server"
 		},
 		"dependencies": {
 			"installers": {
@@ -22,6 +22,22 @@
 					"checksum": {"type": "md5", "value": "ef223cbd7873a057d5aa0abcfa596201 "}
 				}
 			}
+		}
+	},
+	"files": {
+		"database": {
+			"name": "database.tar.gz",
+			"mirrors": [
+				"database.tar.gz"
+			],
+			"checksum": {"type": "md5", "value": "test"}
+		},
+		"server": {
+			"name": "server.tar.gz",
+			"mirrors": [
+				"server.tar.gz"
+			],
+			"checksum": {"type": "md5", "value": "test"}
 		}
 	}
 }

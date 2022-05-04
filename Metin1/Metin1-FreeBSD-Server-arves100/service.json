@@ -6,16 +6,38 @@
 	"sections": {
 		"database": {
 			"type": "MySQL",
-			"version": 5.6,
-			"files": "database.tar.gz"
+			"version": "4.1",
+			"pack": "database.tar.gz"
 		},
 		"server": {
 			"type": "FreeBSD",
-			"version": "5",
-			"files": "server.tar.gz"
+			"version": "5.5",
+			"pack": "server.tar.gz"
 		},
         "dependencies": {
-			"pkg": ["compat5x", "mysql4-server"]
+			"ports": ["mysql41-client"]
         }
+	},
+	"trees": {
+		"account" : ["binaries-account"],
+		"chat": ["binaries-chat"],
+		"db": ["binaries-db"],
+		"game": ["binaries-game", "data-game"],
+		"log": ["binaries-log"],
+		"mark": ["binaries-mark"]
+	},
+	"trees_content": {
+		"binaries": {
+			"account": ["binaries/account/*"],
+			"chat": ["binaries/chat/*"],
+			"db": ["binaries/db/*"],
+			"game": ["binaries/game/*"],
+			"log": ["binaries/log/*"],
+			"mark": ["binaries/mark/*"]
+		},
+		"data": {
+			"game": ["shared/data/game/*"]
+		}
 	}
 }
+
