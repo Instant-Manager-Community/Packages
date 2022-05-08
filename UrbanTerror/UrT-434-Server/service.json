@@ -3,6 +3,7 @@
 	"description": "UrT Server using the official client/server files",
 	"author": "FrostSand",
 	"type": "UrbanTerrorService",
+	"logo": "https://www.urbanterror.info/cache/images/texts/support/183.1.png"
 	"sections": {
 		"files": {
 			"type": "Any",
