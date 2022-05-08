@@ -3,7 +3,8 @@
         "Metin1-FreeBSD-Server-arves100"
     ],
     "Metin2": [
-        "Metin2-Windows-Server-blackdragonx61"
+        "Metin2-Windows-Server-blackdragonx61",
+		"QuantumCore-QCProject"
     ],
     "UrbanTerror": [
         "UrT-434-Server"

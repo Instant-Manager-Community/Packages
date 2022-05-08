@@ -3,6 +3,7 @@
 	"description": "Mainline server compatible with Windows",
 	"author": "blackdragonx61",
 	"type": "Metin2Service",
+	"logo": "https://1.bp.blogspot.com/-tF3zwUDW9h8/U390Hbk8-bI/AAAAAAAAARs/3Ay72xvlUhw/s1600/metin2-logo4.png"
 	"sections": {
 		"database": {
 			"type": "MySQL",

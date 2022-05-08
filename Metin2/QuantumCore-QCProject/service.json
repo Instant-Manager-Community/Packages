@@ -1,8 +1,8 @@
 {
-	"name": "Metin1 FreeBSD Server",
-	"description": "Metin1 Server",
-	"author": "Arves100",
-	"type": "Metin1Service",
+	"name": "QC# Server",
+	"description": "QC# Server Package",
+	"author": "Quantum Core",
+	"type": "Metin2Service",
 	"logo": "https://gitlab.com/uploads/-/system/group/avatar/3727537/qc_logo_short.png",
 	"sections": {
 		"database": {

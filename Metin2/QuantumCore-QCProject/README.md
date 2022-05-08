@@ -1,12 +1,12 @@
 .. _top:
 
-.. image:: Assets/Temp/Assets/Logos/metin1.png
+.. image:: https://gitlab.com/uploads/-/system/group/avatar/3727537/qc_logo_short.png
    :width: 200px
    :height: 100px
    :align: center
 
-Source Topic
-=============
+Quantum Core Project
+====================
 
 You can find the post of the content and discussion at
 [color=39a275]
